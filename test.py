@@ -107,9 +107,9 @@ def predict_val(model, val_data, save_dir):
 
 
 if __name__ == "__main__":
-    model_path = "./run/models/Ablation/MyNet_best_resnet34.pth"
-    test_data_path = "./RGBT_dataset/test/VT5000"
-    result_save_path = "./run/Ablation/Ours_resnet34/VT5000"
+    model_path = "Model Path"
+    test_data_path = ".dataset path"
+    result_save_path = "./run/maps"
 
     val_loader = ValDatasets(test_data_path, 224)
 
