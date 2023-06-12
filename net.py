@@ -215,9 +215,9 @@ class SCA(nn.Module):
         return sc_feat
 
 
-class ESM(nn.Module):
+class EDS(nn.Module):
     def __init__(self, all_channel=64):
-        super(ESM, self).__init__()
+        super(EDS, self).__init__()
         self.conv1 = BasicConv2d(all_channel, all_channel, kernel_size=3, padding=1)
         self.conv2 = BasicConv2d(all_channel, all_channel, kernel_size=3, padding=1)
         self.dconv1 = BasicConv2d(all_channel, int(all_channel / 4), kernel_size=3, padding=1)
@@ -423,7 +423,7 @@ class Net(nn.Module):
         self.SCA4 = SCA(256)
         self.SCA3 = SCA(256)
         self.SCA2 = SCA(128)
-        self.ESM1 = ESM(64)
+        self.EDS1 = EDS(64)
 
 
         self.decoder = PredictionDecoder(64, 128, 256, 256, 512, 1)
@@ -458,7 +458,7 @@ class Net(nn.Module):
         out4 = self.SCA4(x4, ir4)
         out3 = self.SCA3(x3, ir3)
         out2 = self.SCA2(x2, ir2)
-        out1 = self.ESM1(x1, ir1)
+        out1 = self.EDS1(x1, ir1)
 
         return self.decoder(out5, out4, out3, out2, out1)
 
