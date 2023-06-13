@@ -30,7 +30,7 @@ pip install -r requirement.txt
 
 Second, please download the pretrained model into `run/models` folder.
 
-- model: https://pan.baidu.com/s/1cXjVuenLT8uhTydjjUQgsQ?pwd=suep [password: `suep`]
+- model: https://pan.baidu.com/s/1Ss5w-vRNQAhiPX1er1mDfQ?pwd=2edr [password: `2edr`]
 
 Third, Test the model and get the predicted saliency maps, which will be saved into `run/maps` folder.
 
@@ -49,6 +49,6 @@ python train.py
 ## Results
 
 - saliency maps: https://pan.baidu.com/s/1MRNDrx-J3gYFZDs_8bFy9g?pwd=suep [password: `suep`] 
-- Trained models: https://pan.baidu.com/s/1cXjVuenLT8uhTydjjUQgsQ?pwd=suep [password: `suep`] 
+- Trained models: https://pan.baidu.com/s/1Ss5w-vRNQAhiPX1er1mDfQ?pwd=2edr [password: `2edr`]
 
 ![](img/2.jpg)
