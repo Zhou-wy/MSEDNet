@@ -1,12 +1,3 @@
-"""
-description:
-version:
-Author: zwy
-Date: 2023-05-05 15:41:37
-LastEditors: zwy
-LastEditTime: 2023-06-05 16:25:24
-"""
-
 import os
 import torch
 import cv2
@@ -107,9 +98,9 @@ def predict_val(model, val_data, save_dir):
 
 
 if __name__ == "__main__":
-    model_path = "Model Path"
-    test_data_path = ".dataset path"
-    result_save_path = "./run/maps"
+    model_path = "./run/models/finally/MSEDNET_Best.pth"
+    test_data_path = "./RGBT_dataset/test/VT821"
+    result_save_path = "./run/finally/Ours_finally/VT821"
 
     val_loader = ValDatasets(test_data_path, 224)
 
