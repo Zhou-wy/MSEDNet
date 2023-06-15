@@ -1,4 +1,4 @@
-# MSED-Net
+# MSEDNet: Multi-Scale Fusion and Edge-Supervised Network for RGB-T Salient Object Detection
 
 ![](https://blog-1300216920.cos.ap-nanjing.myqcloud.com/1.jpg)
 
