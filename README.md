@@ -2,8 +2,6 @@
 
 ![](https://blog-1300216920.cos.ap-nanjing.myqcloud.com/1.jpg)
 
-![fig.1](/Volumes/历届研究生共享资料/2024届-周威仪/小论文-基于多尺度融合和边缘监督的RGB-T显著性目标检测器/配图/jpg/fig.1.jpg)
-
 ## Requirements
 
 - [Python3.8](https://www.python.org/)
