@@ -6,14 +6,6 @@ Date: 2023-05-13 09:38:35
 LastEditors: zwy
 LastEditTime: 2023-06-05 20:43:24
 '''
-"""
-description:
-version:
-Author: zwy
-Date: 2023-05-05 15:41:37
-LastEditors: zwy
-LastEditTime: 2023-05-05 16:25:24
-"""
 import argparse
 
 parser = argparse.ArgumentParser()
